@@ -35,9 +35,9 @@ public class Operaciones {
             case DIVISION:
                 return num1 / num2;
             case RAIZCUADRADA:
-                return num1;
+                return (float) Math. pow(num1, 2);
             case RAIZCUBICA:
-                return num1;
+                return (float) Math. pow(num1, 3);
             case RAIZCUALQUIERA:
                 return (float) Math. pow(num1, num2);
             default:
