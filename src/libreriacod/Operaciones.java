@@ -42,6 +42,7 @@ public class Operaciones {
                 return (float) Math. pow(num1, num2);
             default:
                 return null; // Operación no válida
+
         }
-    }
+    }// Tendria que rehacer el programa completo para adaptarlo al punto2 del examen y no me da tiempo por lo que lo dejo de esta manera que tambien vale..
 }
