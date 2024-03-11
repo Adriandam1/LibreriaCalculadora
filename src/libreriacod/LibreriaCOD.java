@@ -14,7 +14,7 @@ public class LibreriaCOD {
             
             float num1 = EntradaSalida.obtenerNumero("Introduce el primer numero: ");
             float num2 = EntradaSalida.obtenerNumero("Introduce el segundo numero: ");
-            String operacion = EntradaSalida.obtenerOperacion("Introduce la operacion (suma/resta/multiplicacion/division): ");
+            String operacion = EntradaSalida.obtenerOperacion("Introduce la operacion (suma/resta/multiplicacion/division/raiz): ");
 
             float resultado = Operaciones.operacionBasica(num1, num2, operacion);
             

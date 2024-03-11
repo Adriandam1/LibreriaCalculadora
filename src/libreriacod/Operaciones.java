@@ -15,6 +15,7 @@ public class Operaciones {
 
     public static final String RAIZCUADRADA = "raizcuadrada";
     public static final String RAIZCUBICA = "raizcubica";
+    public static final String RAIZCUALQUIERA = "raiz";
     
         /**
      * Realiza una operaciin basica entre dos numeros segun la operacion indicada.
@@ -33,6 +34,12 @@ public class Operaciones {
                 return num1 * num2;
             case DIVISION:
                 return num1 / num2;
+            case RAIZCUADRADA:
+                return num1;
+            case RAIZCUBICA:
+                return num1;
+            case RAIZCUALQUIERA:
+                return (float) Math. pow(num1, num2);
             default:
                 return null; // Operación no válida
         }
