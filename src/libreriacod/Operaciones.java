@@ -11,7 +11,10 @@ public class Operaciones {
     public static final String SUMA = "suma";
     public static final String RESTA = "resta";
     public static final String MULTIPLICACION = "multiplicacion";
-    public static final String DIVISION = "division"; 
+    public static final String DIVISION = "division";
+
+    public static final String RAIZCUADRADA = "raizcuadrada";
+    public static final String RAIZCUBICA = "raizcubica";
     
         /**
      * Realiza una operaciin basica entre dos numeros segun la operacion indicada.

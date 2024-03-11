@@ -10,7 +10,7 @@ public class LibreriaCOD {
      * @param args the command line arguments
      */
         public static void main(String[] args) {            
-        try {    
+        try {
             
             float num1 = EntradaSalida.obtenerNumero("Introduce el primer numero: ");
             float num2 = EntradaSalida.obtenerNumero("Introduce el segundo numero: ");
