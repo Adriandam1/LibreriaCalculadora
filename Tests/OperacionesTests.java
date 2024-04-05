@@ -25,6 +25,10 @@ public class OperacionesTests {
     public void prueboDivisionNegativa(){
         Assertions.assertEquals(-5f, Operaciones.operacionBasica(-50f,10f,DIVISION));
     }
+    @Test
+    public void prueboDivisionConCero(){
+        Assertions.assertEquals(0f, Operaciones.operacionBasica(0f,10f,DIVISION));
+    }
 
     @Test
     public void prueboSuma(){
