@@ -6,7 +6,7 @@ import static libreriacod.Operaciones.*;
 
 public class OperacionesTests {
     @Test
-    public void prueboCalculadora(){
+    public void prueboMultiplicacion(){
        Assertions.assertEquals(10f, Operaciones.operacionBasica(2f,5f,MULTIPLICACION));
     }
     @Test
